@@ -1,0 +1,42 @@
+1. Start
+  - The game begins.
+2. Input Player Name
+  - Prompt the player to enter their name.
+  - Store the player's name.
+3. Main Game Loop
+  - Enter the main loop where the game repeats until the player decides to quit.
+4. Prompt Player Choice (Even or Odd)
+  - Prompt the player to choose "even" or "odd".
+  - Validate the input to ensure it is either "even" or "odd".
+5. Generate Two Random Numbers
+  - Randomly generate two numbers between 1 and 4.
+6. Calculate Sum
+  - Add the two numbers to get the sum.
+7. Check if Sum is Even or Odd
+  - Determine whether the sum is even or odd.
+8. Compare Player Choice with Sum
+  - Compare the player's choice with the sum's even/odd status.
+9. Determine Result
+  - If the player's choice matches the sum's status:
+    - Player Wins
+      - Increment the win counter.
+  - Else
+    - Player Loses
+      - Increment the loss counter.
+10. Display Result
+  - Display a message showing:
+    - The player's choice.
+    - The sum of the numbers.
+    - Whether the sum was even or odd.
+    - Whether the player won or lost.
+11. Display Win/Loss Totals
+  - Display the player's total number of wins and losses.
+12. Prompt to Play Again
+  - Ask the player if they want to play again (Yes/No).
+13. Decision
+  - If the player chooses "Yes":
+    - Go back to the main game loop.
+  - If the player chooses "No":
+    - Exit the loop.
+14. End
+  - End the game and display a final message.
